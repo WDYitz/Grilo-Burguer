@@ -1,0 +1,3536 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.logo_mobile {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 9px;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.nav {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgba(206, 47, 255, 0.75);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12em;
+    animation: fadein 1s;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.767);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(36, 33, 33);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 2.5em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav-icone {
+    width: 60px;
+}
+
+.logo-nav {
+    width: 400px;
+    top: -20px;
+    left: 10px;
+    animation: 1s;
+    filter: drop-shadow(5px -5px 40px rgba(135, 218, 27, 0.089));
+}
+
+
+
+nav ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+nav ul a:hover {
+    transform: scale(110%);
+    transition: ease-in-out 400ms;
+    opacity: 80%;
+}
+
+body {
+    background-color: rgb(24, 22, 22);
+}
+
+
+
+.animate_animated {
+    color: rgba(172, 255, 47, 0.75);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12em;
+}
+
+.main-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-page h1 {
+    display: none;
+    margin-top: 60px;
+    text-shadow: rgb(180, 255, 4) 0px 0px 1px;
+}
+
+.main-page p {
+    color: rgba(177, 224, 105, 0.925);
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    letter-spacing: 1.4px;
+}
+
+.main-page a {
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.main-page a:hover {
+    transform: scale(110%);
+    transition: ease-in-out 500ms;
+    box-shadow: rgba(177, 224, 105, 0.925) 0px 0px 5px, 0px 0px 30px;
+}
+
+.main-map {
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.main-map iframe {
+    height: 100%;
+    width: 50%;
+}
+
+.localiza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    font-size: 2em;
+    color: rgba(143, 223, 23, 0.925);
+    text-align: right;
+}
+
+
+.localiza p:nth-child(1) {
+    font-size: 2em;
+    color: rgb(143, 228, 17);
+    margin-bottom: 50px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.048);
+    height: 360px;
+    color: greenyellow;
+}
+
+footer div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1em;
+    height: 60%;
+    margin-top: 40px;
+    gap: 20px
+}
+
+footer div p {
+    text-align: center;
+    font-size: 1.5em;
+    top: 0;
+}
+
+footer div {
+    height: 100%;
+}
+
+footer div div a {
+    height: 50px;
+    width: 100px;
+    gap: 10px;
+}
+
+footer .foot-p {
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+footer .div-rede a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+
+}
+
+footer .div-rede ion-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 0.8em;
+    height: 40px;
+    margin: 0;
+    padding: 50px;
+}
+
+hr {
+    width: 80%;
+}
+
+.separador {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+/* PAGINA HAMBURGUERES*/
+
+.main_burger,
+.main_cardapio_ham {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main_cardapio_ham {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 2300px;
+    flex-wrap: wrap;
+}
+
+.main_burger h2 {
+    font-size: 5em;
+    color: rgb(155, 216, 63);
+}
+
+.main_burger h1 {
+
+    color: rgb(155, 216, 63);
+}
+
+.main_cardapio_ham h2 {
+    color: greenyellow;
+    font-size: 3em;
+}
+
+.main_cardapio_ham li {
+    color: white;
+    font-size: 2em;
+}
+
+
+.ham {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+    width: 500px;
+    height: 680px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ham span {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    color: rgb(123, 255, 0);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: rgba(223, 199, 199, 0.116);
+    padding: 3px;
+    position: absolute;
+    width: 210px;
+    right: 0;
+    top: 380px;
+}
+
+.ham a {
+    font-size: 1.5em;
+    color: rgb(153, 255, 0);
+    border-radius: 20px;
+    margin-left: 20px;
+    border-style: dashed;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.burger_dif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.receita {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.receita::before {
+    content: '';
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-size: 100%;
+    background-image: url('../images/ham.png');
+
+}
+
+
+
+
+/* PAGINA HOT-DOGS */
+
+
+
+.main_hot,
+.main_cardapio_hot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main_cardapio_hot {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 2200px;
+    flex-wrap: wrap;
+}
+
+.main_hot h1 {
+
+    color: rgb(155, 216, 63);
+}
+
+.main_hot h2 {
+    font-size: 5em;
+    color: rgb(155, 216, 63);
+}
+
+.main_cardapio_hot h2 {
+    color: greenyellow;
+    font-size: 3em;
+}
+
+.main_cardapio_hot li {
+    color: white;
+    font-size: 2em;
+}
+
+.hot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+    width: 500px;
+    height: 680px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.hot span {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    color: rgb(123, 255, 0);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: rgba(223, 199, 199, 0.116);
+    padding: 3px;
+    position: absolute;
+    width: 210px;
+    right: 0;
+    top: 380px;
+}
+
+.hot a {
+    font-size: 1.5em;
+    color: rgb(153, 255, 0);
+    border-radius: 20px;
+    margin-left: 20px;
+    border-style: dashed;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.hot_dif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+/*PAGINA PASTEIS*/
+
+
+.main_pastel,
+.main_cardapio_pastel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main_cardapio_pastel {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.main_pastel h1 {
+
+    color: rgb(155, 216, 63);
+}
+
+
+.main_pastel h2 {
+    font-size: 5em;
+    color: rgb(155, 216, 63);
+}
+
+.main_cardapio_pastel h2 {
+    color: greenyellow;
+    font-size: 3em;
+}
+
+.main_cardapio_pastel li {
+    color: white;
+    font-size: 2em;
+}
+
+.pastel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.pastel:last-child {
+    padding: 50px;
+    justify-content: start;
+    width: 450px;
+    height: 200px;
+}
+
+
+.pastel a {
+    font-size: 1.5em;
+    color: rgb(250, 250, 249);
+    border-radius: 20px;
+    margin-left: 20px;
+    border-style: dashed;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.pastel_dif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* PAGINA DE BEBIDAS */
+
+
+.main_bebidas,
+.main_cardapio_bebidas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main_cardapio_bebidas {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 800px;
+    flex-wrap: wrap;
+}
+
+.main_bebidas h1 {
+    color: rgb(155, 216, 63);
+}
+
+.main_bebidas h2 {
+    font-size: 5em;
+    color: rgb(155, 216, 63);
+}
+
+.main_cardapio_bebidas h2 {
+    color: greenyellow;
+    font-size: 3em;
+}
+
+.main_cardapio_bebidas li {
+    color: white;
+    font-size: 2em;
+}
+
+.bebidas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(36, 33, 33);
+    width: 1000px;
+    height: 100px;
+    border-radius: 20px;
+    position: relative;
+    padding: 50px;
+}
+
+.bebidas span {
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    color: rgb(123, 255, 0);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(223, 199, 199, 0.116);
+    padding: 3px;
+    position: absolute;
+    width: 350px;
+    right: 0;
+    top: 5px;
+}
+
+.bebidas a {
+    font-size: 1.5em;
+    color: rgb(153, 255, 0);
+    border-radius: 20px;
+    margin-left: 10px;
+    border-style: dashed;
+    padding: 5px;
+    margin-right: 320px;
+}
+
+.bebidas_dif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************************************************************************************************************** MEDIA QUERIES ***************************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .logo_mobile {
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 9px;
+        margin-left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    h1 {
+        color: rgba(172, 255, 47, 0.75);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 12em;
+        animation: fadein 1s;
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.767);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background-color: rgb(36, 33, 33);
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 2.5em;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .nav-icone {
+        width: 40px;
+    }
+
+    .logo-nav {
+        width: 250px;
+    }
+
+    nav ul a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    nav ul a:hover {
+        transform: scale(110%);
+        transition: ease-in-out 400ms;
+        opacity: 80%;
+    }
+
+    body {
+        background-color: rgb(24, 22, 22);
+    }
+
+
+
+    .animate_animated {
+        color: rgba(172, 255, 47, 0.75);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10em;
+    }
+
+    .main-page {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 700px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main-page h1 {
+        margin: 0;
+        text-shadow: rgb(180, 255, 4) 0px 0px 1px;
+    }
+
+    .main-page p {
+        color: rgba(177, 224, 105, 0.925);
+        font-size: 1.4em;
+        letter-spacing: 1.2px;
+    }
+
+    .main-page a {
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.548);
+        padding: 20px;
+        width: 250px;
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    .main-page a:hover {
+        transform: scale(110%);
+        transition: ease-in-out 500ms;
+        box-shadow: rgba(177, 224, 105, 0.925) 0px 0px 5px, 0px 0px 30px;
+    }
+
+    .main-map {
+        background-color: rgb(36, 33, 33);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+    }
+
+    .main-map iframe {
+        height: 100%;
+        width: 50%;
+    }
+
+    .localiza {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        font-size: 2em;
+        color: rgba(143, 223, 23, 0.925);
+        text-align: right;
+    }
+
+
+    .localiza p:nth-child(1) {
+        font-size: 2em;
+        color: rgb(143, 228, 17);
+        margin-bottom: 50px;
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 300px;
+        color: greenyellow;
+    }
+
+    footer div div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1em;
+        height: 60%;
+        margin-top: 40px;
+        gap: 20px
+    }
+
+    footer div p {
+        text-align: center;
+        font-size: 1.2em;
+        top: 0;
+    }
+
+    footer div {
+        height: 100%;
+    }
+
+    footer div div a {
+
+        height: 50px;
+        width: 100px;
+        gap: 10px;
+
+    }
+
+    footer .foot-p {
+        font-size: 1em;
+        margin-top: 50px;
+    }
+
+    footer .div-rede a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+    }
+
+    footer .div-rede ion-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .direitos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 0.8em;
+        margin-top: 50px;
+        height: 40px;
+        margin: 0;
+        padding: 40px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .separador {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    /***********************************************************************
+     PAGINA DE HAMBURGUER 
+     ***********************************************************************/
+
+    .main_burger,
+    .main_cardapio_ham {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_ham {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 2050px;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_burger h1 {
+        font-size: 10em;
+        color: rgb(121, 182, 29);
+    }
+
+    .main_burger h2 {
+        font-size: 5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_ham h2 {
+        color: greenyellow;
+        font-size: 3em;
+    }
+
+    .main_cardapio_ham li {
+        color: white;
+        font-size: 2em;
+    }
+
+    .ham {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 480px;
+        height: 600px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .ham span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 380px;
+    }
+
+    .ham a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .burger_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .receita {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .receita::before {
+        content: '';
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        background-size: 100%;
+        background-image: url('../images/ham.png');
+
+    }
+
+    /***********************************************************************
+     PAGINA DE HOT DOG
+     ***********************************************************************/
+
+    .main_hot,
+    .main_cardapio_hot {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_hot {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 2100px;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_hot h1 {
+        font-size: 10em;
+        color: rgb(121, 182, 29);
+    }
+
+    .main_hot h2 {
+        font-size: 5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_hot h2 {
+        color: greenyellow;
+        font-size: 3em;
+    }
+
+    .main_cardapio_hot li {
+        color: white;
+        font-size: 2em;
+    }
+
+    .hot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 480px;
+        height: 650px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .hot span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 380px;
+    }
+
+    .hot a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hot_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    /* PAGINA PASTEIS */
+
+
+    .main_pastel,
+    .main_cardapio_pastel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_pastel {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 850px;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_pastel h1 {
+        font-size: 10em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_pastel h2 {
+        font-size: 5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_pastel h2 {
+        color: greenyellow;
+        font-size: 3em;
+    }
+
+    .main_cardapio_pastel li {
+        color: white;
+        font-size: 2em;
+    }
+
+    .pastel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 480px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .pastel:last-child {
+        align-items: flex-start;
+        padding: 50px;
+        justify-content: start;
+        width: 480px;
+        height: 200px;
+        text-align: center;
+    }
+
+    .pastel span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 350px;
+        right: 0;
+        top: 30pxx;
+    }
+
+    .pastel a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .pastel_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* PAGINA BEBIDAS */
+    .main_bebidas,
+    .main_cardapio_bebidas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_bebidas {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 800px;
+        flex-wrap: wrap;
+        padding: 3em;
+    }
+
+    .main_bebidas h1 {
+        font-size: 10em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_bebidas h2 {
+        font-size: 5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_bebidas h2 {
+        color: greenyellow;
+        font-size: 2.5em;
+    }
+
+    .main_cardapio_bebidas li {
+        color: white;
+        font-size: 2em;
+    }
+
+    .bebidas {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 1000px;
+        height: 100px;
+        border-radius: 20px;
+        position: relative;
+        padding: 50px;
+    }
+
+    .bebidas span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 350px;
+        right: 0;
+        top: 30pxx;
+    }
+
+    .bebidas a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 10px;
+        border-style: dashed;
+        padding: 5px;
+        margin-right: 320px;
+    }
+
+    .bebidas_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:1011px) {
+
+
+    h1 {
+        color: rgba(172, 255, 47, 0.75);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 9em;
+        animation: fadein 1s;
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.767);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(36, 33, 33);
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 1.8em;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .nav-icone {
+        width: 45px;
+    }
+
+    .logo-nav {
+        width: 250px;
+    }
+
+    nav ul a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    nav ul a:hover {
+        transform: scale(110%);
+        transition: ease-in-out 400ms;
+        opacity: 80%;
+    }
+
+    body {
+        background-color: rgb(24, 22, 22);
+    }
+
+
+
+    .animate_animated {
+        color: rgba(172, 255, 47, 0.75);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 10em;
+    }
+
+    .main-page {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 700px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main-page h1 {
+        margin: 0;
+        text-shadow: rgb(180, 255, 4) 0px 0px 1px;
+        font-size: 9em;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .main-page p {
+        color: rgba(177, 224, 105, 0.925);
+        font-size: 1.4em;
+        letter-spacing: 1.2px;
+    }
+
+    .main-page a {
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.548);
+        padding: 20px;
+        width: 250px;
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    .main-page a:hover {
+        transform: scale(110%);
+        transition: ease-in-out 500ms;
+        box-shadow: rgba(177, 224, 105, 0.925) 0px 0px 5px, 0px 0px 30px;
+    }
+
+    .main-map {
+        background-color: rgb(36, 33, 33);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+    }
+
+    .main-map iframe {
+        height: 100%;
+        width: 50%;
+    }
+
+    .localiza {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        font-size: 1.5em;
+        color: rgba(143, 223, 23, 0.925);
+        text-align: right;
+    }
+
+
+    .localiza p:nth-child(1) {
+        font-size: 2em;
+        color: rgb(143, 228, 17);
+        margin-bottom: 50px;
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 300px;
+        color: greenyellow;
+    }
+
+    footer div div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1em;
+        height: 60%;
+        margin-top: 40px;
+        gap: 20px
+    }
+
+    footer div p {
+        text-align: center;
+        font-size: 1.2em;
+        top: 0;
+    }
+
+    footer div {
+        height: 100%;
+    }
+
+    footer div div a {
+
+        height: 50px;
+        width: 100px;
+        gap: 10px;
+
+    }
+
+    footer .foot-p {
+        font-size: 1em;
+        margin-top: 50px;
+    }
+
+    footer .div-rede a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+    }
+
+    footer .div-rede ion-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .direitos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 0.8em;
+        margin-top: 50px;
+        height: 40px;
+        margin: 0;
+        padding: 40px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .separador {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    /***********************************************************************
+     PAGINA DE HAMBURGUER 
+     ***********************************************************************/
+
+    .main_burger,
+    .main_cardapio_ham {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_ham {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 120em;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_burger h1 {
+        font-size: 10em;
+        color: rgb(121, 182, 29);
+    }
+
+    .main_burger h2 {
+        font-size: 5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_ham h2 {
+        color: greenyellow;
+        font-size: 3em;
+    }
+
+    .main_cardapio_ham li {
+        color: white;
+        font-size: 2em;
+    }
+
+    .ham {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 360px;
+        height: 600px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+        padding: 40px;
+    }
+
+    .ham span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 380px;
+    }
+
+    .ham a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .burger_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .receita {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .receita::before {
+        content: '';
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        background-size: 100%;
+        background-image: url('../images/ham.png');
+
+    }
+
+    /***********************************************************************
+     PAGINA DE HOT DOG
+     ***********************************************************************/
+
+    .main_hot,
+    .main_cardapio_hot {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_hot {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 130em;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_hot h1 {
+        font-size: 10em;
+        color: rgb(121, 182, 29);
+    }
+
+    .main_hot h2 {
+        font-size: 5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_hot h2 {
+        color: greenyellow;
+        font-size: 3em;
+    }
+
+    .main_cardapio_hot li {
+        color: white;
+        font-size: 2em;
+    }
+
+    .hot {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 360px;
+        height: 590px;
+        border-radius: 20px;
+        position: relative;
+        padding: 40px;
+        margin: 0;
+    }
+
+    .hot:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 710px;
+        border-radius: 20px;
+        position: relative;
+    }
+
+    .hot:last-child span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 400px;
+    }
+
+    .hot span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 350px;
+    }
+
+    .hot a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hot_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    /* PAGINA PASTEIS */
+
+
+    .main_pastel,
+    .main_cardapio_pastel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_pastel {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 80em;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_pastel h1 {
+        font-size: 10em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_pastel h2 {
+        font-size: 5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_pastel h2 {
+        color: greenyellow;
+        font-size: 3em;
+    }
+
+    .main_cardapio_pastel li {
+        color: white;
+        font-size: 2em;
+    }
+
+    .pastel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .pastel:last-child {
+        align-items: flex-start;
+        padding: 50px;
+        justify-content: start;
+        width: 400px;
+        height: 200px;
+        text-align: center;
+    }
+
+    .pastel span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 350px;
+        right: 0;
+        top: 30pxx;
+    }
+
+    .pastel a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .pastel_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* PAGINA BEBIDAS */
+    .main_bebidas,
+    .main_cardapio_bebidas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_bebidas {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 50em;
+        flex-wrap: wrap;
+        padding: 3em;
+    }
+
+    .main_bebidas h1 {
+        font-size: 10em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_bebidas h2 {
+        font-size: 5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_bebidas h2 {
+        color: greenyellow;
+        font-size: 2.5em;
+    }
+
+    .main_cardapio_bebidas li {
+        color: white;
+        font-size: 2em;
+    }
+
+    .bebidas {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 1000px;
+        height: 100px;
+        border-radius: 20px;
+        position: relative;
+        padding: 50px;
+    }
+
+    .bebidas span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 350px;
+        right: 0;
+        top: 30pxx;
+    }
+
+    .bebidas a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 10px;
+        border-style: dashed;
+        padding: 5px;
+        margin-right: 320px;
+    }
+
+    .bebidas_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:793px) {
+    .logo_mobile {
+        display: none;
+    }
+
+    .nav_prin {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .checkbox {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        background-color: rgb(36, 33, 33);
+        text-align: center;
+        width: 100%;
+        height: (100vh - 60px);
+        z-index: 1;
+    }
+
+    .menu a {
+        padding: 1em;
+        margin-inline: 1em;
+        border-bottom: 0.10em solid rgba(0, 0, 0, 0.363);
+    }
+
+    .menu li {
+        list-style: none;
+    }
+
+    .label_menu {
+        position: absolute;
+        right: 30px;
+        width: 40px;
+        height: 30px;
+        display: flex;
+        justify-self: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.5em;
+        color: rgba(133, 206, 23, 0.836);
+        cursor: pointer;
+        transition: all ease-in-out 1s;
+    }
+
+    .label_menu::before,
+    .label_menu::after {
+        content: "";
+        display: block;
+        width: 2em;
+        height: 0.125em;
+        background: currentColor;
+        transition: all ease-in-out 1s;
+    }
+
+    .mobile_menu {
+        border-top: 0.125rem solid;
+        width: 1.25rem;
+    }
+
+    .checkbox:checked~.menu {
+        display: block;
+        transition: 1s;
+    }
+
+    .checkbox:checked~.label_menu::before {
+        content: "";
+        transform: translateY(10px) rotate(310deg);
+    }
+
+    .checkbox:checked~.label_menu::after {
+        content: "";
+        transform: translateY(-10px) rotate(-310deg);
+    }
+
+    .checkbox:checked~.label_menu .mobile_menu {
+        content: "";
+        opacity: 0;
+    }
+
+    .mobile_menu {
+        transition: all ease-in-out 0.7s 100ms;
+    }
+
+    h1 {
+        color: rgba(172, 255, 47, 0.75);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 9em;
+        animation: fadein 1s;
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.767);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: 60px;
+        background-color: rgb(36, 33, 33);
+        z-index: 999;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 1.4em;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .nav-icone {
+        width: 200px;
+    }
+
+    .logo-nav {
+        margin-top: 5rem;
+        width: 220px;
+    }
+
+    nav ul a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+
+    nav ul a:hover {
+        transform: scale(107%);
+        transition: ease-in-out 400ms;
+        opacity: 80%;
+    }
+
+    body {
+        background-color: rgb(24, 22, 22);
+    }
+
+
+
+    .animate_animated {
+        color: rgba(172, 255, 47, 0.75);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 5em;
+    }
+
+    .main-page {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        height: 700px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main-page h1 {
+        margin: 0;
+        text-shadow: rgb(180, 255, 4) 0px 0px 1px;
+        font-size: 6em;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .main-page p {
+        color: rgba(177, 224, 105, 0.925);
+        font-size: 1.3em;
+        letter-spacing: 1.5px;
+        padding: 60px 60px;
+        text-align: center;
+    }
+
+    .main-page a {
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.548);
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .main-page a:hover {
+        transform: scale(110%);
+        transition: ease-in-out 500ms;
+        box-shadow: rgba(177, 224, 105, 0.925) 0px 0px 5px, 0px 0px 30px;
+    }
+
+    .main-map {
+        background-color: rgb(36, 33, 33);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 400px;
+    }
+
+    .main-map iframe {
+        height: 100%;
+        width: 50%;
+    }
+
+    .localiza {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        font-size: 1em;
+        color: rgba(143, 223, 23, 0.925);
+        text-align: right;
+    }
+
+
+    .localiza p:nth-child(1) {
+        font-size: 2em;
+        color: rgb(143, 228, 17);
+        margin-bottom: 50px;
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 300px;
+        color: greenyellow;
+    }
+
+    footer div div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1em;
+        height: 60%;
+        margin-top: 40px;
+        gap: 20px
+    }
+
+    footer div p {
+        text-align: center;
+        font-size: 1em;
+        top: 0;
+    }
+
+    footer div {
+        height: 100%;
+    }
+
+    footer div div a {
+
+        height: 20px;
+        width: 100px;
+        gap: 30px;
+
+    }
+
+    footer .foot-p {
+        font-size: 1em;
+        margin-top: 50px;
+    }
+
+    footer .div-rede a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+    }
+
+    footer .div-rede ion-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .direitos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 0.8em;
+        height: 40px;
+        margin: 0;
+        padding: 40px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .separador {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    /***********************************************************************
+     PAGINA DE HAMBURGUER 
+     ***********************************************************************/
+
+    .main_burger,
+    .main_cardapio_ham {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_ham {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 190em;
+        flex-wrap: wrap;
+        padding: 2em;
+    }
+
+    .main_burger h1 {
+        margin-top: 4rem;
+        font-size: 6em;
+        color: rgb(121, 182, 29);
+    }
+
+    .main_burger h2 {
+        font-size: 3em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_ham h2 {
+        color: greenyellow;
+        font-size: 2em;
+    }
+
+    .main_cardapio_ham li {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .ham {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 450px;
+        border-radius: 20px;
+        position: relative;
+        padding: 30px;
+    }
+
+    .ham:nth-child(5) {
+        width: 400px;
+        height: 450px;
+    }
+
+    .ham:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 520px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+        padding: 40px;
+    }
+
+    .ham:last-child span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 290px;
+    }
+
+    .ham span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 270px;
+    }
+
+    .ham a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .burger_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+    }
+
+
+    .receita {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .receita::before {
+        content: '';
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        background-size: 100%;
+        background-image: url('../images/ham.png');
+
+    }
+
+    /***********************************************************************
+     PAGINA DE HOT DOG
+     ***********************************************************************/
+
+    .main_hot,
+    .main_cardapio_hot {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_hot {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 150em;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_hot h1 {
+        margin: 4rem 0rem 0rem 0rem;
+        font-size: 6em;
+        color: rgb(121, 182, 29);
+    }
+
+    .main_hot h2 {
+        font-size: 3em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_hot h2 {
+        color: greenyellow;
+        font-size: 2em;
+    }
+
+    .main_cardapio_hot li {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .hot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 380px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .hot:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 520px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .hot:nth-child(3),
+    .hot:nth-child(4) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 440px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .hot:last-child span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 290px;
+    }
+
+    .hot span {
+        display: flex;
+        justify-content: center;
+        font-size: 4em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 210px;
+        right: 0;
+        top: 250px;
+    }
+
+    .hot a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hot_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    /* PAGINA PASTEIS */
+
+
+    .main_pastel,
+    .main_cardapio_pastel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_pastel {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 70em;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_pastel h1 {
+        margin: 4rem 0rem 0rem 0rem;
+        font-size: 6em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_pastel h2 {
+        font-size: 3em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_pastel h2 {
+        color: greenyellow;
+        font-size: 2em;
+    }
+
+    .main_cardapio_pastel li {
+        color: white;
+        font-size: 1.3em;
+    }
+
+    .pastel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 140px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+        padding: 20px;
+    }
+
+    .pastel:last-child {
+        align-items: flex-start;
+        padding: 50px;
+        justify-content: start;
+        width: 400px;
+        height: 140px;
+        text-align: center;
+    }
+
+    .pastel:last-child span {
+        bottom: 20px;
+    }
+
+    .pastel span {
+        display: flex;
+        justify-content: center;
+        font-size: 3.5em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 270px;
+        right: 0;
+        top: 30pxx;
+    }
+
+    .pastel a {
+        font-size: 1.2em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .pastel_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+    /* PAGINA BEBIDAS */
+
+
+
+    .main_bebidas,
+    .main_cardapio_bebidas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_bebidas {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 80em;
+        flex-wrap: wrap;
+        padding: 3em;
+    }
+
+    .main_bebidas h1 {
+        margin: 4rem 0rem 0rem 0rem;
+        font-size: 6em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_bebidas h2 {
+        font-size: 3em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_bebidas h2 {
+        color: greenyellow;
+        font-size: 2em;
+    }
+
+    .bebidas {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(36, 33, 33);
+        width: 500px;
+        height: 200px;
+        border-radius: 20px;
+        position: relative;
+        padding: 30px;
+        margin-right: 20px;
+    }
+
+    .bebidas span {
+        display: flex;
+        justify-content: center;
+        font-size: 3em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 10px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 300px;
+        right: 0;
+        top: 100px;
+    }
+
+    .bebidas a {
+        font-size: 1.2em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 10px;
+        border-style: dashed;
+        padding: 5px;
+    }
+
+    .bebidas_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .logo_mobile {
+        display: none;
+    }
+
+    .nav_prin {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .checkbox {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        background-color: rgb(36, 33, 33);
+        text-align: center;
+        width: 100%;
+        height: (100vh - 60px);
+        z-index: 1;
+    }
+
+    .menu a {
+        padding: 1em;
+        margin-inline: 1em;
+        border-bottom: 0.10em solid rgba(0, 0, 0, 0.363);
+    }
+
+    .menu li {
+        list-style: none;
+    }
+
+    .label_menu {
+        width: 40px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.5em;
+        color: rgba(133, 206, 23, 0.836);
+        cursor: pointer;
+        transition: all ease-in-out 1s;
+    }
+
+    .label_menu::before,
+    .label_menu::after {
+        content: "";
+        display: block;
+        width: 2em;
+        height: 0.125em;
+        background: currentColor;
+        transition: all ease-in-out 1s;
+    }
+
+    .checkbox:checked~.menu {
+        display: block;
+        transition: 1s;
+    }
+
+    .checkbox:checked~.label_menu::before {
+        content: "";
+        transform: translateY(10px) rotate(310deg);
+    }
+
+    .checkbox:checked~.label_menu::after {
+        content: "";
+        transform: translateY(-10px) rotate(-310deg);
+    }
+
+    .checkbox:checked~.label_menu .mobile_menu {
+        content: "";
+        opacity: 0;
+    }
+
+    .mobile_menu {
+        transition: all ease-in-out 0.7s 100ms;
+    }
+
+    h1 {
+        color: rgba(196, 47, 255, 0.75);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 5em;
+        animation: fadein 1s;
+    }
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.767);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: 60px;
+        background-color: rgb(36, 33, 33);
+        z-index: 999;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 1.4em;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .nav-icone {
+        width: 45px;
+    }
+
+    .logo-nav {
+        width: 200px;
+        top: 100px;
+        margin: 5rem 0rem 3rem 0rem;
+    }
+
+
+
+    nav ul a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+
+    nav ul a:hover {
+        transform: scale(107%);
+        transition: ease-in-out 400ms;
+        opacity: 80%;
+    }
+
+    body {
+        background-color: rgb(24, 22, 22);
+    }
+
+
+
+
+    .animate_animated {
+        color: rgba(172, 255, 47, 0.75);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2em;
+    }
+
+    .main-page {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        height: 700px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main-page h1 {
+        margin: 0;
+        text-shadow: rgb(180, 255, 4) 0px 0px 1px;
+        font-size: 3em;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .main-page p {
+        color: rgba(177, 224, 105, 0.925);
+        font-size: 1.2em;
+        letter-spacing: 1.2px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        margin: 0rem 0rem 3rem 0rem;
+    }
+
+    .main-page a {
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.548);
+        padding: 20px;
+        width: 180px;
+        text-align: center;
+        font-size: 1.3em;
+        box-shadow: rgba(177, 224, 105, 0.925) 0px 0px 2px, 0px 0px 10px;
+    }
+
+    .main-page a:hover {
+        transform: scale(110%);
+        transition: ease-in-out 500ms;
+        box-shadow: rgba(177, 224, 105, 0.925) 0px 0px 5px, 0px 0px 30px;
+    }
+
+    .main-map {
+        background-color: rgb(36, 33, 33);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .main-map iframe {
+        height: 100%;
+        width: 100%;
+    }
+
+    .localiza {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        font-size: 1em;
+        color: rgba(143, 223, 23, 0.925);
+        text-align: right;
+    }
+
+
+    .localiza p:nth-child(1) {
+        font-size: 2em;
+        color: rgb(143, 228, 17);
+        margin-bottom: 50px;
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.048);
+        height: 300px;
+        color: greenyellow;
+    }
+
+    footer div div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1em;
+        height: 60%;
+        margin-top: 40px;
+        gap: 20px
+    }
+
+    footer div p {
+        text-align: center;
+        font-size: 1em;
+        top: 0;
+    }
+
+    footer div {
+        height: 100%;
+    }
+
+    footer div div a {
+
+        height: 20px;
+        width: 100px;
+        gap: 30px;
+
+    }
+
+    footer .foot-p {
+        font-size: 1em;
+        margin-top: 50px;
+    }
+
+    footer .div-rede a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+    }
+
+    footer .div-rede ion-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .direitos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 0.8em;
+        height: 40px;
+        margin: 0;
+        padding: 40px;
+    }
+
+    .separador {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    /***********************************************************************
+     PAGINA DE HAMBURGUER 
+     ***********************************************************************/
+
+    .main_burger,
+    .main_cardapio_ham {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_ham {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 190em;
+        flex-wrap: wrap;
+        padding: 2em;
+    }
+
+    .main_burger h1 {
+        margin: 4rem 0rem 0rem 0rem;
+        font-size: 4em;
+        color: rgb(121, 182, 29);
+    }
+
+    .main_burger h2 {
+        font-size: 2.5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_ham h2 {
+        color: greenyellow;
+        font-size: 2em;
+    }
+
+    .main_cardapio_ham li {
+        color: white;
+        font-size: 1.4em;
+    }
+
+    .ham {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 370px;
+        border-radius: 20px;
+        position: relative;
+        padding: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .ham:nth-child(5) {
+        width: 400px;
+        height: 400px;
+    }
+
+    .ham:nth-child(4) {
+        width: 400px;
+        height: 400px;
+    }
+
+    .ham:nth-child(3) {
+        width: 400px;
+        height: 390px;
+    }
+
+    .ham:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 380px;
+        height: 520px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 40px;
+    }
+
+    .ham:last-child span {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 180px;
+        right: 0;
+        top: 310px;
+    }
+
+    .ham span {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 180px;
+        right: 0;
+        top: 230px;
+    }
+
+    .ham a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .burger_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+    }
+
+
+    .receita {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .receita::before {
+        content: '';
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        background-size: 100%;
+        background-image: url('../images/ham.png');
+
+    }
+
+    /***********************************************************************
+     PAGINA DE HOT DOG
+     ***********************************************************************/
+
+    .main_hot,
+    .main_cardapio_hot {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_hot {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 160em;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_hot h1 {
+        margin: 4rem 0rem 0rem 0rem;
+        font-size: 4em;
+        color: rgb(121, 182, 29);
+    }
+
+    .main_hot h2 {
+        font-size: 3em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_hot h2 {
+        color: greenyellow;
+        font-size: 2.5em;
+    }
+
+    .main_cardapio_hot li {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .hot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 300px;
+        height: 400px;
+        border-radius: 20px;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hot:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 300px;
+        height: 560px;
+        border-radius: 20px;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hot:nth-child(3),
+    .hot:nth-child(4) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 300px;
+        height: 470px;
+        border-radius: 20px;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hot:last-child span {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 190px;
+        right: 0;
+        top: 340px;
+    }
+
+    .hot:nth-child(3) span {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 190px;
+        right: 0;
+        top: 310px;
+    }
+
+    .hot:nth-child(4) span {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 190px;
+        right: 0;
+        top: 300px;
+    }
+
+    .hot span {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 190px;
+        right: 0;
+        top: 270px;
+    }
+
+    .hot a {
+        font-size: 1.5em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hot_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+    /* PAGINA PASTEIS */
+
+
+    .main_pastel,
+    .main_cardapio_pastel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_pastel {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 70em;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_pastel h1 {
+        margin: 4rem 0rem 0rem 0rem;
+        font-size: 4em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_pastel h2 {
+        font-size: 2.5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_pastel h2 {
+        color: greenyellow;
+        font-size: 2em;
+    }
+
+    .main_cardapio_pastel li {
+        color: white;
+        font-size: 1.3em;
+    }
+
+    .pastel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgb(36, 33, 33);
+        width: 400px;
+        height: 140px;
+        border-radius: 20px;
+        position: relative;
+        margin-right: 10px;
+        padding: 20px;
+    }
+
+    .pastel:last-child {
+        align-items: flex-start;
+        padding: 50px;
+        justify-content: start;
+        width: 400px;
+        height: 140px;
+        text-align: center;
+    }
+
+    .pastel:last-child span {
+        bottom: 20px;
+    }
+
+    .pastel span {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 270px;
+        right: 0;
+        top: 30pxx;
+    }
+
+    .pastel a {
+        font-size: 1.2em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        margin-left: 20px;
+        border-style: dashed;
+        padding: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .pastel_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+    /* PAGINA BEBIDAS */
+
+
+
+    .main_bebidas,
+    .main_cardapio_bebidas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .main_cardapio_bebidas {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 110em;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .main_bebidas h1 {
+        margin: 4rem 0rem 0rem 0rem;
+        font-size: 4em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_bebidas h2 {
+        font-size: 2.5em;
+        color: rgb(155, 216, 63);
+    }
+
+    .main_cardapio_bebidas h2 {
+        color: greenyellow;
+        font-size: 2em;
+    }
+
+    .bebidas {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(36, 33, 33);
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+        position: relative;
+        padding: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bebidas span {
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        color: rgb(123, 255, 0);
+        border-top-left-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 10px;
+        background-color: rgba(223, 199, 199, 0.116);
+        padding: 3px;
+        position: absolute;
+        width: 150px;
+        right: 0;
+        top: 240px;
+    }
+
+    .bebidas a {
+        font-size: 1.2em;
+        color: rgb(153, 255, 0);
+        border-radius: 20px;
+        width: 100px;
+        border-style: dashed;
+        padding: 5px;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .bebidas_dif {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMAÇOES */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.5;
+    }
+
+    40% {
+        opacity: 0.7;
+
+    }
+
+    60% {
+        opacity: 0.8;
+
+    }
+
+    80% {
+        opacity: 0.9;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
